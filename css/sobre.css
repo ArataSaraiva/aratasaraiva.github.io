@@ -1,0 +1,133 @@
+.bd-sobre {
+    margin: 0;
+    padding-top: 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    background-color: lightblue;
+}
+
+.section-sobre {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sobre .card {
+    position: relative;
+    background: none;
+    border: none;
+}
+
+.sobre .card .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.sobre .card .face.face1 {
+    position: relative;
+    background: rgb(8, 121, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Prioridade para ficar acima da face2*/
+    z-index: 1;
+    /* Colocará a face1 para baixo, afim de ficar acima da face2 */
+    transform: translateY(100px)
+}
+
+.sobre .card:hover .face.face1 {
+    background-color: #003877;
+    transform: translateY(0px)/* Retorna a face1 para o local original */
+}
+
+.sobre .card .face.face2 {
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgb(0, 0, 0, 0.2);
+    /* Colocará a face2 para cima, afim de ficar abaixo da face1 */
+    transform: translateY(-100px);
+}
+
+.sobre .card:hover .face.face2 {
+    background-color: white;
+    transform: translateY(0px)/* Retorna a face2 para o local original */
+}
+
+.sobre .card .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+}
+
+.sobre .card .face.face2 .content a {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.sobre .card .face.face2 .content a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.sobre .card .face.face1 .content img {
+    max-width: 100px;
+}
+
+.sobre .card .face.face1 .content {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.sobre .card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.sobre .card .face.face1 .content h3 {
+    margin: 10px 0 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+@media (max-width: 992px) {
+    .sobre {
+        display: flex;
+        flex-direction: column;
+    }
+    .sobre .card .face.face1,
+    .sobre .card .face.face2 {
+        transform: translateY(0);
+    }
+    .sobre .card .face.face1,
+    .sobre .card .face.face1 .content {
+        opacity: 1;
+        background-color: #09134e;
+    }
+    .sobre .card {
+        margin: 20px 0;
+    }
+    .sobre .card .face.face2 .content a {
+        background-color: #333;
+        color: #fff;
+    }
+}
