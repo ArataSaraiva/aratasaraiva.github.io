@@ -30,7 +30,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 d-flex">
-                        <a href="index.html" class="navbar-brand"><img src="img/logo.png" width="142" tabindex="0" aria-label="Logotipo ADA"></a>
+                        <a href="./index.php" class="navbar-brand"><img src="img/logo.png" width="142" tabindex="0" aria-label="Logotipo ADA"></a>
                     </div>
                 </div>
 
@@ -41,36 +41,36 @@
                 <div class="collapse navbar-collapse" id="nav-principal">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link" aria-label="Botão de Página Incial" tabindex="0">Início</a>
+                            <a href="./index.php" class="nav-link" aria-label="Botão de Página Incial" tabindex="0">Início</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="" class="nav-link" aria-label="Botão Cursos" tabindex="0">Cursos</a>
+                            <a href="#" class="nav-link" aria-label="Botão Cursos" tabindex="0">Cursos</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="" class="nav-link" aria-label="Botão Instrutor" tabindex="0">Instrutor</a>
+                            <a href="#" class="nav-link" aria-label="Botão Instrutor" tabindex="0">Instrutor</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="sobre.html" class="nav-link" aria-label="Botão Sobre" tabindex="0">Sobre</a>
+                            <a href="./sobre.php" class="nav-link" aria-label="Botão Sobre" tabindex="0">Sobre</a>
                         </li>
 
                         <li class="nav-item divisor"></li>
 
                         <li class="nav-item btn-entrar">
-                            <a href="./login.html" class="nav-link" aria-label="Botão Entrar" tabindex="0">Entrar</a>
+                            <a href="./login.php" class="nav-link" aria-label="Botão Entrar" tabindex="0">Entrar</a>
                         </li>
 
                         <li class="nav-item icone-acessibilidade">
                             <div class="adjust-align-center">
-                                <a href="" id="altocontraste" onclick="window.toggleContrast()" tabindex="0"><img src="img/adjust.png" aria-label="Botão de alto contraste" width="23"></a>
+                                <a href="#" id="altocontraste" onclick="window.toggleContrast()" tabindex="0"><img src="img/adjust.png" aria-label="Botão de alto contraste" width="23"></a>
                             </div>
                         </li>
 
                         <li class="nav-item icone-acessibilidade">
                             <div class="adjust-align-center">
-                                <a href="" id="aumentar-fonte" onclick="window.toggleFont()" tabindex="0"><img src="img/font.png" aria-label="Botão com função de aumentar a fonte" width="23"></a>
+                                <a href="#" id="aumentar-fonte" onclick="window.toggleFont()" tabindex="0"><img src="img/font.png" aria-label="Botão com função de aumentar a fonte" width="23"></a>
                             </div>
                         </li>
                     </ul>
@@ -100,7 +100,7 @@
                 <!-- Face2: Será aquela que irá subir no eixo Y. Ao utilizar o hover, ela voltará ao seu local original -->
                 <div class="face face2">
                     <div class="content">
-                        <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p tabindex="0">Nossa missão é entregar uma plataforma de acesso rápido e fácil ao conhecimento de qualidade com preços acessíveis sem muita burocracia.</p>
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="face face2">
                     <div class="content">
-                        <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p tabindex="0">A plataforma é criada com o intuito de ajudar as pessoas que não tem tempo disponivel, mas querem aprender algo novo por hobby ou necessidade.</p>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="face face2">
                     <div class="content">
-                        <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p tabindex="0">O conhecimento é um direito de todos por isso temos promoções aleatórias e vouchers para aqueles que não tem condições de pagar por alguns cursos no momento.</p>
                     </div>
                 </div>
             </div>
@@ -141,47 +141,47 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2" id="logo">
-                    <a href="" tabindex="-1"><img src="img/logo.png" width="142" aria-label="Logotipo ADA" tabindex="0"></a>
+                    <a href="./index.php" tabindex="-1"><img src="img/logo.png" width="142" aria-label="Logotipo ADA" tabindex="0"></a>
                 </div>
 
                 <div class="col-md-2" tabindex="0">
                     <h4>Company</h4>
                     <ul class="navbar-nav">
-                        <li><a href="" aria-label="botão Sobre da aba Company" tabindex="0">Sobre</a></li>
-                        <li><a href="" aria-label="botão Empregos da aba Company" tabindex="0">Empregos</a></li>
-                        <li><a href="" aria-label="botão Instrutores da aba Company" tabindex="0">Instrutores</a></li>
-                        <li><a href="" aria-label="botão Novidades da aba Company" tabindex="0">Novidades</a></li>
+                        <li><a href="#" aria-label="botão Sobre da aba Company" tabindex="0">Sobre</a></li>
+                        <li><a href="#" aria-label="botão Empregos da aba Company" tabindex="0">Empregos</a></li>
+                        <li><a href="#" aria-label="botão Instrutores da aba Company" tabindex="0">Instrutores</a></li>
+                        <li><a href="#" aria-label="botão Novidades da aba Company" tabindex="0">Novidades</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-2" tabindex="0">
                     <h4>Comunidades</h4>
                     <ul class="navbar-nav">
-                        <li><a href="" aria-label="botão Alunos da aba Comunidades" tabindex="0">Alunos</a></li>
-                        <li><a href="" aria-label="botão Instrutores da aba Comunidades" tabindex="0">Instrutores</a></li>
-                        <li><a href="" aria-label="botão Desenvolvedores da aba Comunidades" tabindex="0">Desenvolvedores</a></li>
-                        <li><a href="" aria-label="botão Apoiadores da aba Comunidades" tabindex="0">Apoiadores</a></li>
+                        <li><a href="#" aria-label="botão Alunos da aba Comunidades" tabindex="0">Alunos</a></li>
+                        <li><a href="#" aria-label="botão Instrutores da aba Comunidades" tabindex="0">Instrutores</a></li>
+                        <li><a href="#" aria-label="botão Desenvolvedores da aba Comunidades" tabindex="0">Desenvolvedores</a></li>
+                        <li><a href="#" aria-label="botão Apoiadores da aba Comunidades" tabindex="0">Apoiadores</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-2" tabindex="0">
                     <h4>Links Úteis</h4>
                     <ul class="navbar-nav">
-                        <li><a href="" aria-label="botão Ajuda da aba Links úteis" tabindex="0">Ajuda</a></li>
-                        <li><a href="" aria-label="botão Presentes da aba Links úteis" tabindex="0">Presentes</a></li>
-                        <li><a href="" aria-label="botão Tutoriais da aba Links úteis" tabindex="0">Tutoriais</a></li>
+                        <li><a href="#" aria-label="botão Ajuda da aba Links úteis" tabindex="0">Ajuda</a></li>
+                        <li><a href="#" aria-label="botão Presentes da aba Links úteis" tabindex="0">Presentes</a></li>
+                        <li><a href="#" aria-label="botão Tutoriais da aba Links úteis" tabindex="0">Tutoriais</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul>
                         <li>
-                            <a href="" tabindex="-1" aria-label="Link para nossa página no facebook"><img src="img/facebook.png" tabindex="0"></a>
+                            <a href="#" tabindex="-1" aria-label="Link para nossa página no facebook"><img src="img/facebook.png" tabindex="0"></a>
                         </li>
                         <li>
-                            <a href="" tabindex="-1" aria-label="Link para nossa página no twitter"><img src="img/twitter.png" tabindex="0"></a>
+                            <a href="#" tabindex="-1" aria-label="Link para nossa página no twitter"><img src="img/twitter.png" tabindex="0"></a>
                         </li>
                         <li>
-                            <a href="" tabindex="-1" aria-label="Link para nossa página no instagram"><img src="img/instagram.png" tabindex="0"></a>
+                            <a href="#" tabindex="-1" aria-label="Link para nossa página no instagram"><img src="img/instagram.png" tabindex="0"></a>
                         </li>
                     </ul>
                 </div>

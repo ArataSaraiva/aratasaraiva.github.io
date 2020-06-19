@@ -11,6 +11,29 @@
     padding-top: 100px;
 }
 
+#home-painel {
+    background: rgb(8, 160, 255);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+p {
+    text-align: justify;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.5rem;
+}
+
+.card-body .card-group .card{
+    margin: 0.25rem;
+}
+
+
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -288,6 +311,10 @@ form h2 {
     align-items: center;
 }
 
+.sobre p {
+    text-align: left;
+}
+
 .sobre .card {
     position: relative;
     background: none;
@@ -394,7 +421,7 @@ section#sec-login {
 }
 
 #div-login {
-    padding-top: 75px;
+    padding-top: 0;
 }
 
 section .login-switch {
@@ -536,6 +563,30 @@ section .login-switch.active .signinBx .imgBx {
     left: -100%;
 }
 
+.btn:not(:disabled):not(.disabled) {
+    text-decoration: none;
+}
+
+.btn-secondary {
+    color: rgb(2, 39, 63);
+    background-color: white;
+    border: none;
+    margin-left: 1em;
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: rgb(2, 39, 63);
+    border: none;
+    margin-left: 1em;
+}
+
+.show>.btn-secondary.dropdown-toggle {
+    color: white;
+    background-color: rgb(2, 39, 63);
+    border: none;
+    margin-left: 1em;
+}
 
 /*=================Rodapé===================*/
 
@@ -543,7 +594,38 @@ footer {
     background-color: black;
     padding: 50px 0px 20px 0px;
     position: relative;
+
 }
+
+footer-painel h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer-painel .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer-painel .navbar-nav a:hover {
+    color: #888ff3;
+    text-decoration: none;
+}
+
+footer-painel ul {
+    list-style: none;
+}
+
+footer-painel ul li {
+    float: right;
+    margin: 0px 5px;
+}
+
+footer-painel #logo {
+    padding-bottom: 30px;
+}
+
 
 footer h4 {
     color: #919496;
