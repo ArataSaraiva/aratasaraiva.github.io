@@ -28,11 +28,9 @@ p {
     padding: 0.5rem;
 }
 
-.card-body .card-group .card{
+.card-body .card-group .card {
     margin: 0.25rem;
 }
-
-
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -588,13 +586,52 @@ section .login-switch.active .signinBx .imgBx {
     margin-left: 1em;
 }
 
+.figure-box figure {
+    overflow: hidden;
+    position: relative;
+}
+
+.figure-box figure img {
+    position: relative;
+    transition: transform 0.6s;
+}
+
+.figure-box figure:hover img {
+    transform: translateY(-10px);
+}
+
+.figure-box figcaption {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    background-color: #037283;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.6s, opacity 0.1s 0.3s;
+}
+
+.figure-box figure:hover figcaption {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: transform 0.6s, opacity 0.1s;
+}
+
+.figure-box figure figcaption p {
+    color: white;
+}
+
+
 /*=================Rodapé===================*/
 
 footer {
     background-color: black;
     padding: 50px 0px 20px 0px;
     position: relative;
-
 }
 
 footer-painel h4 {
@@ -625,7 +662,6 @@ footer-painel ul li {
 footer-painel #logo {
     padding-bottom: 30px;
 }
-
 
 footer h4 {
     color: #919496;
@@ -693,7 +729,9 @@ footer #logo {
 .contrast section,
 .contrast main,
 .contrast aside,
-.contrast article {
+.contrast article,
+.contrast figure,
+.contrast figcaption {
     background: black !important;
     color: white !important;
 }

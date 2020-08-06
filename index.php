@@ -96,7 +96,12 @@
                 </div>
                 <!-- Fim Textos da Seção-->
                 <div class="col-md-6 d-none d-md-block">
-                    <img class="on-contrast-force-gray" src="img/mulher.png" aria-label="Duas mulheres sorrindo e de braços cruzados, olhando pra frente. Estão de costas uma para outra" width="426">
+                    <div class="figure-box">
+                        <figure>
+                        <img class="on-contrast-force-gray" src="img/mulher.png" aria-label="Duas mulheres sorrindo e de braços cruzados, olhando pra frente. Estão de costas uma para outra" width="426">
+                        <figcaption><p>Duas mulheres sorrindo</p></figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>
@@ -107,22 +112,34 @@
         <!--Inicio da Seção Serviços-->
         <div class="container">
             <div class="row">
-                <div class="col-md-6 d-none d-md-block">
+                <div class="col-md-6 d-none d-md-block figure-box">
                     <div class="row cursos">
                         <div class="col-md-6">
+                            <figure>
                             <img src="img/img1.jpg" class="img-fluid on-contrast-force-gray" aria-label="Desenho de uma vídeo-aula com professor apontando para o quadro">
+                            <figcaption><p>Desenho de uma vídeo-aula</p></figcaption>
+                            </figure>
                         </div>
                         <div class="col-md-6">
-                            <img src="img/img3.jpg" class="img-fluid on-contrast-force-gray" aria-label="Desenho de uma mulher ministrando aula online para um jovem">
+                            <figure>
+                                <img src="img/img3.jpg" class="img-fluid on-contrast-force-gray" aria-label="Desenho de uma mulher ministrando aula online para um jovem">
+                                <figcaption><p>Desenho de uma mulher ministrando aula online</p></figcaption>
+                            </figure>
                         </div>
                     </div>
 
                     <div class="row cursos">
                         <div class="col-md-6 d-none d-md-block">
-                            <img src="img/praticidade.jpg" class="img-fluid on-contrast-force-gray" aria-label="Desenho de um homem ministrando aula através de um notebook">
+                            <figure>
+                                <img src="img/praticidade.jpg" class="img-fluid on-contrast-force-gray" aria-label="Desenho de um homem ministrando aula através de um notebook">
+                                <figcaption><p>Desenho de um homem ministrando aula</p></figcaption>
+                            </figure>
                         </div>
                         <div class="col-md-6">
-                            <img src="img/img4.jpg" class="img-fluid on-contrast-force-gray" aria-label="Desenho de um homem apontando para gráficos em uma tela de computador">
+                            <figure>
+                                <img src="img/img4.jpg" class="img-fluid on-contrast-force-gray" aria-label="Desenho de um homem apontando para gráficos em uma tela de computador">
+                                <figcaption><p>Desenho de um homem apontando para gráficos</p></figcaption>
+                            </figure>
                         </div>
                     </div>
 
@@ -163,8 +180,11 @@
                         <a id="btn-veja-mais" href="./sobre.php" class="btn btn-light" aria-label="Botão de Veja Mais" tabindex="0">Veja mais</a>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="img/saiba.png" class="img-fluid on-contrast-force-gray" aria-label="Desenho de um painel minimalista">
+                <div class="col-md-6 figure-box">
+                    <figure>
+                        <img src="img/saiba.png" class="img-fluid on-contrast-force-gray" aria-label="Desenho de um painel minimalista">
+                        <figcaption><p>Desenho de um painel minimalista</p></figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
@@ -175,8 +195,11 @@
         <!--Inicio Seção Recursos-->
         <div class="container">
             <div class="row">
-                <div class="col-md-4" tabindex="0">
-                    <img src="img/organizacao.png" class="img-fluid on-contrast-force-gray" aria-label="Desenho de uma mulher ao lado de um celular com um calendário">
+                <div class="col-md-4 figure-box" tabindex="0">
+                    <figure>
+                        <img src="img/organizacao.png" class="img-fluid on-contrast-force-gray" aria-label="Desenho de uma mulher ao lado de um celular com um calendário">
+                        <figcaption><p>Desenho de uma mulehr ao lado de um celular</p></figcaption>
+                    </figure>
                     <h2>Organização</h2>
                     <p>
                     Você é o dono de sua rotina de estudos escolha seu tempo determinado ou assista seus cursos quando desejar. Faça sua própria rotina de estudos.
@@ -184,19 +207,25 @@
                 </div>
 
 
-                <div class="col-md-4" tabindex="0">
-                    <img src="img/img2.jpg" class="img-fluid on-contrast-force-gray" aria-label="Desenho de uma mulher falando na tela de um computador">
+                <div class="col-md-4 figure-box" tabindex="0">
+                    <figure>
+                        <img src="img/img2.jpg" class="img-fluid on-contrast-force-gray" aria-label="Desenho de uma mulher falando na tela de um computador">
+                        <figcaption><p>Desenho de uma mulher em um computador</p></figcaption>
+                    </figure>
                     <h2>Praticidade</h2>
                     <p>
                     Em casa, no notebook, tablet ou celular, você tem total acesso às funcionalidades da plataforma, aprenda onde e quando quiser. Sem fronteiras, aqui sua vontade de aprender tem respaldo.
                     </p>
                 </div>
 
-                <div class="col-md-4" tabindex="0">
-                    <img src="img/suporte.png" class="img-fluid on-contrast-force-gray" aria-label="Desenho de uma mulher trabalhando no suporte técnico">
+                <div class="col-md-4 figure-box" tabindex="0">
+                    <figure>
+                        <img src="img/suporte.png" class="img-fluid on-contrast-force-gray" aria-label="Desenho de uma mulher trabalhando no suporte técnico">
+                        <figcaption><p>Desenho de uma mulher no suporte técnico</p></figcaption>
+                    </figure>
                     <h2>Suporte Técnico</h2>
                     <p>
-                    Estamos preucupados com sua experiencia e seu conforto, por isso alem de tirar sua duvidas sobre os cursos com os instrutores você pode relatar as dificuldades coma plataforma ou algum problema ocorrido diretamente com nossa central 24h
+                    Estamos preucupados com sua experiência e seu conforto, por isso alem de tirar sua duvidas sobre os cursos com os instrutores você pode relatar as dificuldades coma plataforma ou algum problema ocorrido diretamente com nossa central 24h
                     </p>
                 </div>
 
